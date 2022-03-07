@@ -26,6 +26,12 @@
             "language": "gemini",
             "scopeName": "source.gemini",
             "path": "./syntaxes/gemini.tmLanguage.json"
-        }]
+        }],
+        "configurationDefaults": {
+            "[gemini]": {
+                "editor.wordWrap": "on",
+                "editor.quickSuggestions": false
+            }
+        }
     }
 }
