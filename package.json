@@ -1,7 +1,7 @@
 {
     "name": "gemini-improved",
     "displayName": "Gemini",
-    "description": "Improved syntax highlighting for Gemini text",
+    "description": "Syntax highlighting for Gemini documents",
     "version": "1.0.1",
     "publisher": "printfn",
     "repository": {
