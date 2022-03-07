@@ -2,7 +2,7 @@
     "name": "gemini-improved",
     "displayName": "Gemini",
     "description": "Syntax highlighting for Gemini documents",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "printfn",
     "repository": {
         "type": "git",
