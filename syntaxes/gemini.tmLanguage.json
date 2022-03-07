@@ -19,18 +19,30 @@
 		"headings": {
 			"patterns": [{
 				"name": "markup.heading.1.gemini",
-				"begin": "^#[^#]",
-				"end": "\n"
+				"match": "^(#)(?:[^#].*)?\n",
+				"captures": {
+					"1": {
+						"name": "punctuation.definition.heading.1.gemini"
+					}
+				}
 			},
 			{
 				"name": "markup.heading.2.gemini",
-				"begin": "^##[^#]",
-				"end": "\n"
+				"match": "^(##)(?:[^#].*)?\n",
+				"captures": {
+					"1": {
+						"name": "punctuation.definition.heading.2.gemini"
+					}
+				}
 			},
 			{
 				"name": "markup.heading.3.gemini",
-				"begin": "^###[^#]",
-				"end": "\n"
+				"match": "^(###)(?:[^#].*)?\n",
+				"captures": {
+					"1": {
+						"name": "punctuation.definition.heading.3.gemini"
+					}
+				}
 			}]
 		},
 		"raw": {
@@ -43,15 +55,23 @@
 		"unorderedLists": {
 			"patterns": [{
 				"name": "markup.list.unnumbered.gemini",
-				"match": "^\\*.+\n"
+				"match": "^(\\*)[ \t]+.+\n",
+				"captures": {
+					"1": {
+						"name": "punctuation.definition.list.begin.gemini"
+					}
+				}
 			}]
 		},
 		"links": {
 			"patterns": [{
-				"match": "^=>[ \t]+([^ \t]+)",
+				"match": "^=>[ \t]+([^ \t]+)(?:[ \t]+(.*))?",
 				"captures": {
 					"1": {
 						"name": "markup.underline.link.gemini"
+					},
+					"2": {
+						"name": "string.other.link.title.gemini"
 					}
 				}
 			}]
