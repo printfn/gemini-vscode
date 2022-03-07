@@ -1,0 +1,25 @@
+{
+    "name": "gemini-improved",
+    "displayName": "Gemini",
+    "description": "Improved syntax highlighting for Gemini text",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gmi",
+            "aliases": ["Gemini", "gmi"],
+            "extensions": [".gmi", ".gemini"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gmi",
+            "scopeName": "source.gemini",
+            "path": "./syntaxes/gmi.tmLanguage.json"
+        }]
+    }
+}
