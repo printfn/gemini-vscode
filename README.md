@@ -1,6 +1,6 @@
-# gemini-improved
+# Gemini for VS Code
 
-This extension adds improved syntax highlighting support for Gemini documents
+This extension adds syntax highlighting support for Gemini documents
 (with the `.gmi` extension).
 
 Specification: <gemini://gemini.circumlunar.space/docs/specification.gmi>
