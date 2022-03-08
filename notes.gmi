@@ -1,0 +1,13 @@
+# Notes
+
+## Releasing a new version:
+
+* Update the changelog (CHANGELOG.md)
+* Bump the version number in package.json
+* Make a git tag (e.g. v1.0.0)
+* Push the new commit and tag
+* Run "vsce package" in the terminal to package the release
+* Create a release on GitHub, and attach the release package
+* Go to the extension marketplace website and upload the package
+
+=> https://marketplace.visualstudio.com/manage/publishers/printfn Extension Marketplace

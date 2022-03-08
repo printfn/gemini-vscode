@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.3
+
+* Made syntax highlighting for links, lists and headings more precise
+
 ## 1.0.2
 
 * Enable word wrap by default
