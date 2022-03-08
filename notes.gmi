@@ -10,4 +10,5 @@
 * Create a release on GitHub, and attach the release package
 * Go to the extension marketplace website and upload the package
 
+=> https://github.com/printfn/gemini-vscode/releases/new Releases on GitHub
 => https://marketplace.visualstudio.com/manage/publishers/printfn Extension Marketplace
