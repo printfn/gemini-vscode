@@ -1,5 +1,11 @@
 # Notes
 
+## Using the scope inspector
+
+The scope inspector can be found in the Command Palette.
+
+=> https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector Scope inspector
+
 ## Releasing a new version:
 
 * Update the changelog (CHANGELOG.md)

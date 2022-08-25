@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.0.4
+
+* Add syntax highlighting for block quotes (`>` syntax)
+* Improve syntax highlighting for links and lists
+
 ## 1.0.3
 
 * Made syntax highlighting for links, lists and headings more precise

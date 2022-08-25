@@ -6,13 +6,16 @@
 			"include": "#headings"
 		},
 		{
+			"include": "#links"
+		},
+		{
+			"include": "#quote"
+		},
+		{
 			"include": "#raw"
 		},
 		{
 			"include": "#unorderedLists"
-		},
-		{
-			"include": "#links"
 		}
 	],
 	"repository": {
@@ -45,6 +48,30 @@
 				}
 			}]
 		},
+		"links": {
+			"patterns": [{
+				"match": "^=>[ \t]+([^ \t]+)(?:[ \t]+(.*))?",
+				"captures": {
+					"1": {
+						"name": "markup.underline.link.markdown.gemini"
+					},
+					"2": {
+						"name": "string.other.link.title.markdown.gemini"
+					}
+				}
+			}]
+		},
+		"quote": {
+			"patterns": [{
+				"name": "markup.quote.markdown.gemini",
+				"match": "^(>).*$",
+				"captures": {
+					"1": {
+						"name": "punctuation.definition.quote.begin.markdown.gemini"
+					}
+				}
+			}]
+		},
 		"raw": {
 			"patterns": [{
 				"name": "markup.raw.gemini",
@@ -58,20 +85,7 @@
 				"match": "^(\\*)[ \t]+.+\n",
 				"captures": {
 					"1": {
-						"name": "punctuation.definition.list.begin.gemini"
-					}
-				}
-			}]
-		},
-		"links": {
-			"patterns": [{
-				"match": "^=>[ \t]+([^ \t]+)(?:[ \t]+(.*))?",
-				"captures": {
-					"1": {
-						"name": "markup.underline.link.gemini"
-					},
-					"2": {
-						"name": "string.other.link.title.gemini"
+						"name": "punctuation.definition.list.begin.markdown.gemini"
 					}
 				}
 			}]
