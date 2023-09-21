@@ -10,7 +10,7 @@
     },
     "homepage": "https://github.com/printfn/gemini-vscode",
     "engines": {
-        "vscode": "^1.65.0"
+        "vscode": "^1.82.2"
     },
     "categories": [
         "Programming Languages"
@@ -30,7 +30,11 @@
         "configurationDefaults": {
             "[gemini]": {
                 "editor.wordWrap": "on",
-                "editor.quickSuggestions": false
+                "editor.quickSuggestions": {
+                    "comments": "off",
+                    "other": "off",
+                    "strings": "off"
+                }
             }
         }
     }
