@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.5
+
+* Update `editor.quickSuggestions` setting in `package.json`
+
 ## 1.0.4
 
 * Add syntax highlighting for block quotes (`>` syntax)
