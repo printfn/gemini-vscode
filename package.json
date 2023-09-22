@@ -20,7 +20,8 @@
             "id": "gemini",
             "aliases": ["Gemini", "gmi"],
             "extensions": [".gmi", ".gemini"],
-            "configuration": "./language-configuration.json"
+            "configuration": "./language-configuration.json",
+            "mimetypes": ["text/gemini"]
         }],
         "grammars": [{
             "language": "gemini",
