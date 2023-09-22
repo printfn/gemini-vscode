@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.0.6
+
+* Update Gemini specification links to point to [https://geminiprotocol.net](https://geminiprotocol.net)
+* Add text/gemini mime type
+
 ## 1.0.5
 
 * Update `editor.quickSuggestions` setting in `package.json`
