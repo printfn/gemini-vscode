@@ -4,4 +4,4 @@ This extension adds syntax highlighting support for Gemini documents (with the .
 
 => https://marketplace.visualstudio.com/items?itemName=printfn.gemini-improved Download the extension here
 
-=> gemini://gemini.circumlunar.space/docs/specification.gmi Gemini Specification
+=> gemini://geminiprotocol.net/docs/specification.gmi Gemini Specification

@@ -5,6 +5,6 @@ This extension adds syntax highlighting support for Gemini documents
 
 Download the extension [here](https://marketplace.visualstudio.com/items?itemName=printfn.gemini-improved).
 
-Specification: <gemini://gemini.circumlunar.space/docs/specification.gmi>
+Specification: <gemini://geminiprotocol.net/docs/specification.gmi>
 
-Specification (HTTP Mirror): <https://gemini.circumlunar.space/docs/specification.gmi>
+Specification (HTTP Mirror): <https://geminiprotocol.net/docs/specification.gmi>
