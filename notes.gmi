@@ -14,7 +14,8 @@ The scope inspector can be found in the Command Palette.
 * Push the new commit and tag
 * Run `npx @vscode/vsce package` in the terminal to package the release
 * Create a release on GitHub, and attach the release package
-* Go to the extension marketplace website and upload the package
+* Go to the extension marketplace website (Microsoft and OpenVSX) and upload the package
 
 => https://github.com/printfn/gemini-vscode/releases/new Releases on GitHub
-=> https://marketplace.visualstudio.com/manage/publishers/printfn Extension Marketplace
+=> https://marketplace.visualstudio.com/manage/publishers/printfn Microsoft Extension Marketplace
+=> https://open-vsx.org/user-settings/extensions OpenVSX Extension Marketplace
